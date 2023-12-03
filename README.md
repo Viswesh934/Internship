@@ -55,6 +55,8 @@ polls/
     tests.py
     views.py
 ```
+*** Don't forget to add super user ***
+![image](https://github.com/Viswesh934/Internship/assets/98519767/f3ef6599-7c4d-4e9c-b4df-a65f0f15bf56)
 
 ***
 ### Write your first view
@@ -174,7 +176,9 @@ STATICFILES_DIRS = [
     '/var/www/static/',
 ]
 ```
+![image](https://github.com/Viswesh934/Internship/assets/98519767/2b05074f-d128-4f36-87a2-235023a3f202)
 
+-- The poles are added and can be edited
 python ./manage.py migrate
 python ./manage.py makemigrations
 
